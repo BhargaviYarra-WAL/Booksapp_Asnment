@@ -1,0 +1,19 @@
+.login-container {
+  width: 40%;
+  padding: 20px 30px;
+  margin: 100px auto;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.reg-heading {
+  padding: 15px 0px;
+  text-align: center;
+  color: #000;
+}
+#loading-spinner {
+  margin: 15px auto;
+  visibility: hidden;
+}
+#error-status {
+  font: red;
+}

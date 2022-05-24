@@ -1,0 +1,116 @@
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+.clearfix {
+  overflow: auto;
+}
+
+#add,
+#list,
+#logout-btn,
+#edit-products {
+  display: none;
+}
+.blue {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.blue .navbar {
+  background: transparent;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: #fff;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+}
+
+.blue .navbar .navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: inherit;
+  padding: 0px;
+}
+
+.blue .navbar .navbar-brand:hover {
+  color: #f0f0f0;
+}
+
+.blue .navbar .navbar-collapse {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .blue .navbar .navbar-collapse {
+    border-color: transparent;
+    margin: 0;
+  }
+}
+
+.blue .navbar .navbar-collapse span .login {
+  color: #d9d9d9;
+  margin-right: 0.5rem;
+  text-decoration: none;
+}
+
+.blue .navbar .navbar-collapse span .login:hover {
+  color: #fff;
+}
+
+.blue .navbar .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.blue .navbar .navbar-toggler:hover,
+.blue .navbar-toggler:focus {
+  background: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none !important;
+  box-shadow: none;
+}
+.blue .navbar .navbar-nav a.active,
+.blue .navbar .navbar-nav > .show .dropdown-item {
+  background: none;
+  box-shadow: none;
+}
+@media (min-width: 768px) {
+  .blue .navbar-nav .nav-link {
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .blue .navbar-nav .nav-link {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+}
+
+.blue .action-button,
+.blue .action-button:not(.disabled):active {
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  color: #ebeff1;
+  box-shadow: none;
+  text-shadow: none;
+  padding: 0.3rem 0.8rem;
+  background: transparent;
+  transition: background-color 0.25s;
+  outline: none;
+}
+.nav-link:hover {
+  border-radius: 15px;
+  border-top: 2px solid white;
+}
+.blue .action-button:hover {
+  color: #000;
+  background-color: white;
+}
